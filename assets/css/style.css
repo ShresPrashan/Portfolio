@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/PrashanBG.png") top center;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: auto 105%;
 }
 #hero:before {
   content: "";
