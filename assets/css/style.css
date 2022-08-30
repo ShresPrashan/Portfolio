@@ -725,33 +725,39 @@ section {
 
 
 
+
 /* CSS */
-.button-88 {
-  display: flex;
-  align-items: center;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  padding: 0.7em 1.4em 0.7em 1.1em;
-  color: white;
-  background: #ad5389;
-  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
-  border: none;
-  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
-  letter-spacing: 0.05em;
-  border-radius: 20em;
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: auto;
 }
 
-.button-88:hover {
-  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
-}
-
-.button-88:active {
-  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
